@@ -1,4 +1,4 @@
-# Project Title
+# Saliford Motors Employee Retention Prediction
 Developing a predictive model to predict whether an employee will leave using exploratory data analysis and machine learning.
 
 # Project Overview
