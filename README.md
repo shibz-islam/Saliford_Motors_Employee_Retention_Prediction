@@ -38,7 +38,7 @@ The logistic regression model achieved precision of 79%, recall of 82%, f1-score
 After feature engineering and introducing a new feature named `overworked`, the Random Forest model achieved AUC of 93.8%, precision of 87.0%, recall of 90.3%, f1-score of 88.7%, and accuracy of 96%, on the test set, whereas Decision Tree model achieved 93.3% AUC, 78% precision, 91.7% recall, 84.5% f1-score, and 94.4% accuracy score. However, investigating the confusion matrices, we found that Decision Tree produces 41 and 126 false negatives and false positives, respectively, compared to Random Forest's 48 and 67 false negatives and false positives, respectively. Therefore, we can conclude that Random Forest model slightly outperformed Decision Tree model.
 These models predicts more false positives than false negatives, which means that some employees may be identified as at risk of quitting or getting fired, when that's actually not the case. Nevertheless, these are still strong models.
 
-Even though, XGBoost achieves slightly better precision (90%), f1-score (89.8%), and accuracy (96.6%) than Random Forest, it's recall (89.3%) and AUC (93.7%) score slightly fell short. Also, it causes more false negative predictions (51) compared to false positive predictions (48).
+Even though, XGBoost achieves slightly better precision (90%), f1-score (89.8%), and accuracy (96.6%) than Random Forest, it's recall (89.3%) and AUC (93.7%) score slightly fell short. Also, it causes more false negative predictions (53) compared to false positive predictions (48).
 
 From the results, we can conclude that both Random Forest and XGBoost models perform well in predicting employee retention.  
 
