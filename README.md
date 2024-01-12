@@ -23,6 +23,10 @@ During our EDA, the correlation heatmap confirms that the number of projects, mo
 
 It's likely that the company won't have satisfaction levels reported for all of its employees or the satisfaction level reported do not resemble the true satisfaction. It's also possible that the `average_monthly_hours` column is a source of some data leakage. If employees have already decided upon quitting, or have already been identified by management as people to be fired, they may be working fewer hours. We could proceed by dropping satisfaction_level and creating a new feature through feature engineering process that roughly captures whether an employee is overworked. This new binary feature could be named `overworked`, define as working more than approximately the average number of monthly hours that a person would be working for per month, which is 175 hours.
 
+<img src="plots/eda1.png" width="320" height="200"> <img src="plots/eda2.png" width="320" height="200">
+
+<img src="plots/heatmap.png" width="300" height="275"> <img src="plots/heatmap2.png" width="300" height="275">
+
 
 
 # Modeling and Evaluation 
@@ -37,6 +41,11 @@ These models predicts more false positives than false negatives, which means tha
 Even though, XGBoost achieves slightly better precision (90%), f1-score (89.8%), and accuracy (96.6%) than Random Forest, it's recall (89.3%) and AUC (93.7%) score slightly fell short. Also, it causes more false negative predictions (51) compared to false positive predictions (48).
 
 From the results, we can conclude that both Random Forest and XGBoost models perform well in predicting employee retention.  
+
+
+<img src="plots/cm_lr.png" width="220" height="180"> <img src="plots/cm_dt.png" width="220" height="180"> <img src="plots/cm_rf.png" width="220" height="180"> <img src="plots/cm_xgb.png" width="220" height="180">
+
+<img src="plots/feat_imp_rf.png" width="250" height="180"> <img src="plots/feat_imp_xgb.png" width="250" height="180">
 
 
 # Conclusion
