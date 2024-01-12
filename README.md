@@ -13,9 +13,6 @@ The order of notebooks to follow:
 Salifort Motors, a fictional energy vehicle manufacturer, want to increase employee retention. Based on a recent employee survey, they want to analyze the collected data and design a model that predicts whether an employee will leave the company. If we can predict employees likely to quit, it might be possible to identify factors that contribute to their leaving. Because it is time-consuming and expensive to find, interview, and hire new employees, increasing employee retention will be beneficial to the company.
 
 
-based on their department, number of projects, average monthly hours, and any other data points you deem helpful. 
-
-
 # Data Understanding 
 The HR department at Salifort Motors collected the data that contains 10 columns and 14,999 rows, each row representing a different employee's data. In the dataset, there's no missing/null entries, however there are 2008 duplicated rows. With most of the variables are continuous variables across 10 columns, it is highly unlikely that almost 20% of the data is duplicate and legitimate at the same time. Therefore, we removed these rows before futher processing. The data is not perfectly balanced with approximately 83%-17% split in favor of *not leaving*, nevertheless it is not too imbalanced.
 
