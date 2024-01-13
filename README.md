@@ -1,6 +1,8 @@
 # Saliford Motors Employee Retention Prediction
 Developing a predictive model to predict whether an employee will leave using exploratory data analysis and machine learning.
 
+Note: This project is a part of *Google Advanced Data Analytics Professional Certificate Course*.
+
 # Project Overview
 In this project, we develop a classification model to predict employee retention. More specifically, the goal is to build a machine learning model that can be used to determine  whether or not an employee will leave the company. We use a dataset from Kaggle and organize the raw dataset for further analysis. Thorugh extensive exploratory data analysis (EDA), we explored, analyzed, cleaned, and structured data to learn the relationship among variables in the data and to gain insights into employee management of the company. Finally, we constructed classification models (regression and tree-based) to predict employee retention. 
 
